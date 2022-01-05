@@ -6,8 +6,6 @@ for (var meta in metadata) {
     }
 }
 
-
-
 for (var meta in metadata) {
     if (metadata[meta].name == 'keywords') {
         htmlstr += '<div><p><b>Keywords </b> :  ' + metadata[meta].content + ' [Count=' + metadata[meta].content.split(",").length + '] </p></div>';
